@@ -26,6 +26,7 @@ Design: ![alt text](./original-design.png)
 -   CSS animations
 -   HTML forms
 -   backround image
+-   CSS custom properties (aka variables)
 
 Node.js - _download and install_
 
