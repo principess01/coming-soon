@@ -21,12 +21,13 @@
     <link rel="stylesheet" href="./css/components/clock.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
+    <link rel="stylesheet" href="./css/components/forms.css">
     <!-- custom page -->
     <link rel="stylesheet" href="./css/pages/coming-soon.css">
 </head>
 
 <body>
-    <header class="container bg-blue">
+    <header class="container bg-blue hero">
         <div class="row-short">
             <img class="logo" src="./img/logo.png" alt="Logo" >
             <h1 class="main-title">Coming soon</h1>
@@ -49,6 +50,17 @@
                     <div class="label">Seconds</div>
                 </div>
             </div>
+             <form class="form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" value="" maxlength="50" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
             <div class="mouse"></div>
         </div>
     </header>
@@ -91,6 +103,27 @@
                 <h2 class="section-title">Have any questions?</h2>
                 <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Dolore, <a href="mailto:mano@el.pastas.lt">mano@el.pastas.lt</a> autem nobis necessitatibus voluptate tenetur.</p>
+                  <form class="form">
+                    <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">Name</label>
+                        <input id="first-name" type="text" name="name" value="Vardenis" placeholder="Your name" maxlength="25" required autofocus>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" value="" maxlength="50" placeholder="Your email" required>
+                    </div>
+                    </div>
+                    <div class="form-row">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" minlength="20" maxlength="1000" placeholder="Your message" required></textarea>
+                    </div>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </main>

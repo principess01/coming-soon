@@ -3,6 +3,16 @@
     background-color: #03A9F5;
 }
 
+.hero {
+  background-image: url(../../img/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  justify-content: center;
+}
+
 .logo {
     height: 30px;
 }
@@ -16,6 +26,20 @@ color: #000;
 .main-description {
    font-size: 22px;
     color: #ccc; 
+}
+.hero .form-row {
+  justify-content: center;
+}
+.hero label {
+  color: #fff;
+}
+.hero input {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.hero ::placeholder {
+  color: #fff;
 }
 
 .section-title {
